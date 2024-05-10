@@ -29,3 +29,12 @@ for item in lista_aleatoria:
     quadrado.append(item ** 2)
     
     # clear() - limpa lista
+    
+
+# Extendendo listas
+
+lista_simples = [1, 2]
+
+lista_simples.extend(["teste", "oi"])
+
+print(lista_simples)
