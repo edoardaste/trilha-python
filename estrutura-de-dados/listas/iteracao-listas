@@ -1,0 +1,31 @@
+lista = ["gol", "honda", "fusca"]
+
+for i in lista:
+    print(i)
+    
+
+#funcao enumerate para saber o indice do objeto dentro da lista
+
+for indice, i in enumerate(lista):
+    print(f"{indice}: {i}")
+    
+
+# compreensão de listas retornando numero par
+
+lista_aleatoria = [1, 2, 3, 4, 5, 6, 6]
+pares = []
+
+for item in lista_aleatoria:
+    if item % 2 == 0:
+        pares.append(item)
+
+print(pares)
+
+# modificacao de valores
+
+quadrado = []
+
+for item in lista_aleatoria:
+    quadrado.append(item ** 2)
+    
+    # clear() - limpa lista
