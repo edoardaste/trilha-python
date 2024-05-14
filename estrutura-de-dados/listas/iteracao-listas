@@ -1,4 +1,4 @@
-
+lista = ["gol", "honda", "fusca"]
 
 for i in lista:
     print(i)

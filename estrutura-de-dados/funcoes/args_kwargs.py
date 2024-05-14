@@ -7,7 +7,6 @@ def exibir_texto(introducao, *args, **kwargs):
 		print(mensagem)
 
 
-
 exibir_texto(
     "Prezado",
 	"Espero que esta mensagem o encontre bem. Gostaria de agendar uma reunião para discutir o",
